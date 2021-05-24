@@ -6,6 +6,7 @@ dumper.js
 backup.js
 blob.js
 frontend.js
+ftp.js
 goldhen.html
 goldhen-755.js
 img.jpg
