@@ -1,31 +1,28 @@
 <html>
 <style>
-body {
+html {
 background-image: url('img.jpg');
-background-attachment: fixed;
-background-size:100%;
-background-repeat:no-repeat;
+background-size: 100%;
+background-repeat: no-repeat;
 background-color: #24272b;
-color:white;
+color: white;
 overflow: hidden;
 }
 h1 {
-color:#3B9AAF;
-font-size:25px;
+font-size: 25px;
 margin-top: 17px;
-text-align:center;
-text-shadow: 0.1em 0.1em 0.2em black;
+text-align: center;
+color:white;
+text-shadow: 0.1em 0.1em 0.2em #3FA7EE;
 }
 hr {
-color:#3B9AAF;
-margin-top: 17px;
 margin-left: -8px;
 margin-right: -8px;
+color:#46C5EA;
+text-shadow: 0.1em 0.1em 0.2em black;
 }
 #div1 {
-color:#3B9AAF;
 height: 519px;
-width: auto;
 }
 </style>
 <body onload="go()">
@@ -88,7 +85,7 @@ window.midExploit = function() {
   var scripts = ['blob.js', 'jb.js'];
 
   if (fwFromUA != "750" && fwFromUA != "751" && fwFromUA != "755") {
-    die('Sistema no Compatible');
+    die('Sistema No Compatible');
   }
 
   scripts.push('mira.js');
@@ -120,7 +117,7 @@ function done() {
         }
           read_ptr_at(0);
         } else
-      alert("¡Jailbreak falló! Reinicia tu PS4 y vuelve a intentarlo.");
+      alert("Jailbreak falló! Reinicia tu PS4 y vuelve a intentarlo.");
     }
 </script>
 <hr>
